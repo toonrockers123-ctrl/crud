@@ -8,7 +8,7 @@ class UserController {
         success: true,
         data: users,
         message: 'Users retrieved successfully'
-        //added the swagger api
+        //added the swagger doc for this endpoint
       });
     } catch (err) {
       res.status(500).json({
